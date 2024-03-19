@@ -6,27 +6,27 @@
     <title>Home-Page</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
+<header>
+    <h1>My First Blog Website</h1>
+</header>
+
 <body>
-    <section>
-        <p>This is where the picture goes</p>
-    </section>
-
-
     <form id = "blogForm" method="post">
-        <h2>What's on your mind?</h2>
-        <div>
+        <h2 id = "aboveUser">What's on your mind?</h2>
+        <div id="userBox">
             <label>Username</label>
             <input id="username"></input>
         </div>
-        <div>
+        <div id="titleBox">
             <label>Title</label>
             <input id = "title"></input>
         </div>
-        <div>
+        <div id="contentBox">
             <label>Content</label>
             <textarea id = "content"></textarea>
         </div> 
-        <div>
+        <div id="buttBox">
             <button id="submitButton">Submit</button>
         </div> 
     </form>

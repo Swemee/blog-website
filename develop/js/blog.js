@@ -15,7 +15,7 @@ function renderBlogs() {
         divider.className = 'wrapper';
 
         const userText = document.createElement('h2');
-        userText.textContent = blogInfo[i].username;
+        userText.textContent = 'This was posted by: ' + blogInfo[i].username;
         userText.className = 'userTextContent';
 
         const titleText = document.createElement('h3');
